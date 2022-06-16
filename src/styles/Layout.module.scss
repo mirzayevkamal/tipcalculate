@@ -1,0 +1,12 @@
+@import './variables.module';
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background: $layoutBg;
+  border-radius: $border;
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.219);
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}

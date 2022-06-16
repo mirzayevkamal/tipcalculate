@@ -1,0 +1,14 @@
+@import './variables.module';
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.input{
+    border: 1px solid red;
+    font-size: 24px;
+    text-align: end;
+    padding: 1px 10px;
+    border-radius: 10px;
+}

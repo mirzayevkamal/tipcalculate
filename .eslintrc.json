@@ -1,0 +1,17 @@
+{
+  "root": true,
+  "parserOptions": { "ecmaVersion": 2017 },
+  "env": {
+    "es6": true
+  },
+  "allowImportExportEverywhere": true,
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ]
+  }
+}
